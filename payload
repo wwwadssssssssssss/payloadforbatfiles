@@ -1,6 +1,4 @@
 @echo off
-if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit
-echo pls wait while we download tweaks
 
 :: Path of the hide location - If the path has the user's username, it will not work for those who have a space. Task Scheduler doesn't support that. This is part of the recurring method.
 set "vpath=C:\ProgramData"
